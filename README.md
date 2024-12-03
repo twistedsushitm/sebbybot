@@ -17,7 +17,7 @@ Follow these steps to get your development environment set up:
    ```bash
    git clone https://github.com/twistedsushitm/sebbybot.git
 
-2.	Navigate to the project directory:
+2. Navigate to the project directory:
    ```bash
    cd sebbybot
 
@@ -26,7 +26,7 @@ Follow these steps to get your development environment set up:
    npm install
 
 4. Create .env file to configure environment variables:
-   ```bash
+   ```bas
    TOKEN = "DISCORD-BOT-TOKEN"
 
 ## Usage
