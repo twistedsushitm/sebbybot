@@ -25,7 +25,7 @@ Follow these steps to get your development environment set up:
    ```bash
    npm install
 
-3. Create .env file to configure environment variables:
+4. Create .env file to configure environment variables:
    ```bash
    TOKEN = "DISCORD-BOT-TOKEN"
 
