@@ -4,7 +4,8 @@
   "type": "commonjs",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx nodemon bot.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.5",
     "libsodium-wrappers": "^0.7.15",
+    "nodemon": "^3.1.7",
     "yt-search": "^2.6.1",
     "ytdl": "^1.4.1",
     "ytdl-core": "^4.11.5",

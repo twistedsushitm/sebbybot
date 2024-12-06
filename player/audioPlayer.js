@@ -1,11 +1,10 @@
 const { createAudioPlayer, createAudioResource, AudioPlayerStatus } = require('@discordjs/voice');
-const { getNextSong } = require('./queueManager');
+const { getNextSong, queue } = require('./queueManager');
 const player = createAudioPlayer();
-const ytdl = require("@distube/ytdl-core")
-const { delay } = require("../utils/delay")
+const ytdl = require("@distube/ytdl-core");
+const { delay } = require("../utils/delay");
 
 let leaveTimeout = null;
-
 
 const playNext = async (connection, message) => {
   const nextUrl = getNextSong();
